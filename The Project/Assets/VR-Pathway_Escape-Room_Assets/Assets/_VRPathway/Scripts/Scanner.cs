@@ -1,13 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
-public class Scanner : MonoBehaviour
+public class Scanner : XRGrabInteractable
 {
+    [Header("Scanner Data")]
+    public Animator animator;
     // Start is called before the first frame update
     void Start()
     {
-        
+        animator.SetBool("Opened", true);
     }
 
     // Update is called once per frame
