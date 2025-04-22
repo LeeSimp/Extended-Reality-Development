@@ -10,6 +10,7 @@ public class NumberPad : MonoBehaviour
     public TextMeshProUGUI inputDisplayText;
     private string currentInput = "";
     public DoorHandle doorHandle;
+    public GameObject lockBar;
 
     public void ReceiveNumber(int number)
     {
@@ -45,7 +46,11 @@ public class NumberPad : MonoBehaviour
         inputDisplayText.text = "Unlocked!";
         if (doorHandle != null)
         {
-            doorHandle.Unlock(); // Call the method on DoorController
+            doorHandle.UnlockDoor(); // Call the method on DoorController
+        }
+        if(lockBar != null)
+        {
+            lockBar.SetActive(false);
         }
     }
 
