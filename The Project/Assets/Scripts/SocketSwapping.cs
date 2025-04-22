@@ -5,11 +5,13 @@ public class SocketSwapping : XRSocketInteractor
 {
     protected override void OnSelectEntering(SelectEnterEventArgs args)
     {
-        if (hasSelection)
+        // Check if the socket already has a selection
+        if (hasSelection && interactablesSelected is IXRSelectInteractable interactable)
         {
-            interactionManager.SelectExit(this, firstInteractableSelected);
+            interactionManager.SelectExit(this, interactable);
         }
 
         base.OnSelectEntering(args);
     }
 }
+
