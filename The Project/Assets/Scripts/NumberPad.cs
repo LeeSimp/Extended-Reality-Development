@@ -46,7 +46,7 @@ public class NumberPad : MonoBehaviour
         inputDisplayText.text = "Unlocked!";
         if (doorHandle != null)
         {
-            doorHandle.UnlockDoor(); // Call the method on DoorController
+            doorHandle.UnlockDoor(); 
         }
         if(lockBar != null)
         {
