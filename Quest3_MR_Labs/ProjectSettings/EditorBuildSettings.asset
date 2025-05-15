@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MR_Lab2-part1-MRUK-Tutorial.unity
     guid: 34ceb6ca0eb77c14a8525d48f783ebdb
   - enabled: 1
-    path: Assets/Scenes/MR Project.unity
+    path: Assets/MR Project Assets/MR Project.unity
     guid: c5dd59802c308794e98e91b87bd9222e
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 99745ef35588579429a6dc87661dbf8a,
