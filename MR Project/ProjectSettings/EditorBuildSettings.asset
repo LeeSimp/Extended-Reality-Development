@@ -9,12 +9,10 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Scenes/MRProjectScene.unity
-    guid: bfc1d44fa4e95054bbe1141512463135
+    path: Assets/MR Project Assets/MR Project.unity
+    guid: c5dd59802c308794e98e91b87bd9222e
   m_configObjects:
-    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: e5e3179f5b76c994ca0096c9a35b332e,
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e114af8454b6d344293d3a905e7de8c4,
       type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 4324a904784525242ba88fea4101ff00,
-      type: 2}
-    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: e45fca1030d574e458e798f98c372a62,
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 4334155b1bc4131498cc7415765fb6fc,
       type: 2}
